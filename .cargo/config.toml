@@ -1,0 +1,12 @@
+[alias]
+# create = "run --bin meta --quiet --release --"
+# scaffold = "run --bin meta --quiet --release --"
+
+latest = "run --bin latest --"
+solve = "run --bin default --"
+day = "run --bin default --"
+all = "run --bin default -- -a"
+
+[env]
+# AOC_YEAR = "2019"
+AOC_YEAR = "2023"
